@@ -9,7 +9,7 @@ import NotFoundPage from './pages/NotFoundPage';
 function App() {
   return (
     <div className="app">
-      <Routes>
+      <Routes path='/itmo_store_demo'>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="products" element={<ProductsPage />} />
